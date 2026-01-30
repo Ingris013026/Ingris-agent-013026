@@ -1,66 +1,139 @@
-<!-- BEGIN_SECTION: tw_guidance_syringe_original | TITLE: Guidance: Syringe (Import, Class II) -->
-# 預審/形式審查指引（Mock）—第二等級輸入一般醫材：一次性使用無菌注射器（含針）
-
+<!-- BEGIN_SECTION: tw_premarket_screening_v1 | TITLE: （TW）第二、三等級醫療器材查驗登記—形式審查（預審）指引 v1 -->
 ## 0. 審查目的
-本指引用於形式審查（預審）階段，確認申請書與主要附件是否齊備、資訊是否一致、文件可追溯性是否足以進入技術審查。
+本指引用於協助申請人/審查者對「第二、三等級醫療器材查驗登記」案件進行**形式審查（預審）**，重點在於：
+- 確認申請書之**基本欄位**是否完整、可辨識、可追溯
+- 確認附件是否**提及且可供檢附**
+- 在不判斷實質安全有效性之前，先排除明顯缺漏與一致性問題
 
-## 1. 必要文件清單（預期應附）
-1. 申請書
-2. 醫療器材商許可執照
-3. 原廠授權登記書
-4. 出產國製售證明
-5. QMS/ISO 13485 證明
-6. 產品中文標籤/說明書/外盒標示擬稿
-7. 產品技術檔案摘要
-8. 滅菌確效摘要
-9. 包裝完整性/運輸模擬摘要
-10. 生物相容性摘要
-11. 性能/功能測試摘要
-12. 風險管理摘要
+## 1. 必要文件清單
+- 申請書（含案件基本資料、醫療器材資訊、醫療器材商資料、製造廠資訊）
+- 中文標示/中文說明書（草稿或核定版視案件狀態）
+- 技術檔案摘要（至少包含：設計概述、風險管理摘要、性能/測試摘要）
+- 類似品比較資料（如申請人勾選「有類似品」）
+- 製造/品質系統相關文件（如 QMS/QSD、ISO 13485 等，視適用性）
+- 若為輸入案：原廠授權登記書、出產國製售證明（CFS）或等同文件（視適用性）
+
+## 2. 關鍵欄位檢核
+- 電子流水號：格式合理且不為空
+- 案件類型/案件種類：選項是否已選定且與案件背景一致
+- 產地/產品等級：是否已選定（國產/輸入/陸輸；第二/第三等級）
+- 中文名稱/英文名稱：是否齊備，且與標示/說明書一致
+- 統一編號、醫療器材商名稱、地址、負責人、聯絡資訊：是否完整
+- 製造廠名稱與地址：是否完整（至少可定位到國家/城市/街道）
+- 若勾選「替代臨床前測試及原廠品質管制資料」：是否提供替代理由與補充證據線索
+
+## 3. 一致性檢核
+- 申請書的產品名稱（中/英）與標示/說明書之名稱一致
+- 產地為「輸入」時，原廠授權/CFS 的適用性說明合理（未勾選適用者需說明例外）
+- 製造方式（單一/委託）與製造廠說明一致
+- 類似品狀態（有/無/全球首創）與「類似品摘要」內容一致
+- 聯絡人電話/Email 的格式可用（至少具可聯絡性）
+- 若「臨床證據適用性」選擇「適用」，臨床證據摘要不可為空或需註記待補
 
 ## 4. 常見缺失
-- 缺原廠授權或授權未涵蓋全部規格
-- 缺 CFS 或文件過期
-- 缺滅菌確效摘要或未說明 EO 參數
+- 基本欄位缺漏（電子流水號、公司地址、製造廠地址、聯絡 Email 等）
+- 中文/英文品名在不同文件中不一致（大小寫、版本字串、型號標示）
+- 輸入案未說明原廠授權或 CFS 為何不適用
+- 類似品選「有」但未提供任何比較表/摘要
+- 技術檔案摘要只有空泛描述，缺少可追溯的測試項目或標準
+
+## 5. 建議輸出格式
+建議以 Markdown 輸出，至少包含：
+- 形式完整性檢核表（文件項目｜預期應附？｜是否提及？｜是否檢附？｜判定｜備註/補件）
+- 重要欄位檢核（問題｜風險｜建議補充）
+- 預審評語摘要（300–600 字）
 <!-- END_SECTION -->
 
-<!-- BEGIN_SECTION: tw_guidance_suture | TITLE: Guidance: Suture (Import, Class II) -->
-# 預審/形式審查指引（Mock）—第二等級輸入一般醫材：外科縫合針線組
+
+<!-- BEGIN_SECTION: tw_premarket_attachment_rules_v1 | TITLE: （TW）附件摘要撰寫與適用性判定規則（快速版） -->
 ## 0. 審查目的
-本指引用於形式審查（預審）階段，確認申請書關鍵欄位、必備附件、文件一致性與追溯性是否足以進入技術審查。
-## 1. 必要文件清單（預期應附）
-1. 第二、三等級醫療器材查驗登記申請書
-2. 醫療器材商許可執照
-3. 原廠授權登記書
-4. 出產國製售證明
-5. QMS/QSD 或 ISO 13485 證明
-6. 中文標籤/中文說明書/外盒標示擬稿
-7. 技術檔案摘要
-8. 滅菌確效摘要
-9. 包裝完整性/運輸模擬摘要
-10. 生物相容性摘要
-11. 性能測試摘要
-12. 風險管理摘要
+提供附件摘要區塊的快速撰寫規則，協助申請書在形式審查階段更容易判讀「有/無、適用/不適用」。
+
+## 1. 必要文件清單
+- 原廠授權（輸入案常見）
+- 製售證明 CFS（輸入案常見）
+- QMS/QSD 或 ISO 13485 證明（視產品/公司狀況）
+- 類似品比較表（選「有」時）
+- 中文標示/說明書（多數案件需）
+- 技術檔案摘要（多數案件需）
+
+## 2. 關鍵欄位檢核
+- 每個附件項目至少填：是否適用 + 一句說明（若不適用需給理由）
+- 若附件「適用」，摘要需指出：文件名稱/版本/日期/涵蓋範圍（至少其一）
+
+## 3. 一致性檢核
+- 附件摘要提到的文件名稱/日期，應可在實際附件清單或描述中對應
+- QMS 證明範圍應能涵蓋該產品或相關製程（設計/製造/包裝/滅菌等）
+
+## 4. 常見缺失
+- 全部都填「不適用」但無理由
+- 摘要只有「如附件」但未提供文件識別資訊
+- 製造方式為委託但未交代委託範圍與責任分工
+
+## 5. 建議輸出格式
+- 用條列列出「適用/不適用」與理由
+- 需要補件者以「※待補：」標示
 <!-- END_SECTION -->
 
-<!-- BEGIN_SECTION: k510_guidance_review_memo | TITLE: Guidance: Internal 510(k) Review Memo (Mock) -->
-# 510(k) Review Pipeline Guidance (Mock) — Internal Use
 
-## 0. Purpose
-Use this guidance to structure checklist-based review notes and draft an internal review memo grounded in the submission.
+<!-- BEGIN_SECTION: k510_review_guidance_v1 | TITLE: （510(k)）內部審查報告撰寫指引 v1（繁中） -->
+## 0. 審查目的
+本段落用於指導 510(k) 內部審查報告（review memo）的整理方式，使報告能：
+- 清楚對應 submission 提供的證據
+- 對應 checklist 項目逐條判讀「已提供/未提供/需澄清」
+- 將重大風險與缺口以可行動方式呈現（需要補件或需要額外測試）
 
-## 1. Required Inputs
-- Structured submission (organized markdown)
-- Checklist items (section/item/expected)
-- Any device-specific guidance (optional)
+## 1. 必要文件清單
+- Submission 結構化內容（device description/indications/predicate/performance/labeling）
+- Checklist（可為表格或條列）
+- 若有：Guidance/Standards 宣稱與測試報告摘要
 
-## 2. Consistency Checks
-- Indications consistent across cover letter, IFU, and summary
-- Predicate comparison matches technological characteristics and testing
-- Testing supports claims and intended use
+## 2. 關鍵欄位檢核
+- Indications for use 與 labeling 是否一致
+- Predicate 選擇是否合理；差異是否有對應測試/論證
+- 測試是否包含 acceptance criteria 與結論
+- 軟體/資安（如適用）是否提供足夠文件（LoC、hazard、V&V、SBOM 等）
 
-## 4. Output Format
-- Executive summary (5–10 bullets)
-- Checklist assessment table
-- Conclusion and next steps
+## 3. 一致性檢核
+- Submission 內各段落的產品名稱/型號一致
+- 測試結論與風險控制的鏈結一致（risk → control → verification）
+
+## 4. 常見缺失
+- 僅有測試敘述但無 acceptance criteria 或無結論
+- Predicate 差異顯著但未補充額外證據
+- 資安內容缺漏或過度概述
+- Labeling 缺少關鍵警語或使用限制
+
+## 5. 建議輸出格式
+- 以 Markdown memo 呈現，含：
+  - Overview
+  - Predicate comparison（差異表）
+  - Checklist-based assessment（逐條）
+  - Major gaps & requests for additional information（RAI）
+<!-- END_SECTION -->
+
+
+<!-- BEGIN_SECTION: k510_checklist_scoring_v1 | TITLE: （510(k)）Checklist 判定與分級（Pass/Concern/Gap）建議 v1 -->
+## 0. 審查目的
+提供 checklist item 的一致判定語言，便於儀表板統計與追蹤補件。
+
+## 1. 必要文件清單
+- Checklist table（section/item/expected/notes）
+- Review memo（可在 notes 或 report 中引用判定）
+
+## 2. 關鍵欄位檢核
+- Pass：證據齊備，且與預期一致
+- Concern：有證據，但不完整/需要澄清（例如樣本數不足、方法描述不足）
+- Gap：無證據或與預期不符（例如缺 SBOM、缺 sterilization validation）
+
+## 3. 一致性檢核
+- 判定用語一致（避免同一類缺失不同寫法造成統計困難）
+- Concern/GAP 必須附「原因」與「建議補件方向」
+
+## 4. 常見缺失
+- 只寫「缺資料」但未指出缺哪一段/哪個報告
+- 未說明補件應提供何種 evidence（測試、聲明、對照表、風險評估等）
+
+## 5. 建議輸出格式
+- Checklist 表格最後一欄新增：Status（Pass/Concern/Gap）與 Comment
 <!-- END_SECTION -->
